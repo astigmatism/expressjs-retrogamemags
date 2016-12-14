@@ -1,0 +1,61 @@
+expressjs-retrogamemags
+
+===
+
+Converting Magazines from RetroMags.com
+
+- Magazines at retromags come as a series of jpg's, usually one per page but no always!
+
+- Extract the magazine and look through each page.
+
+- Ensure each page is uniformly sized to every other page! Magazines are like this in the real world! If some are not, follow this handy subsection:
+
+	Cropping multi-paged images
+
+	===
+
+	- ensure "brew install imagemagick" is installed.
+
+	- source the image which represents several pages and run the following:
+
+	- convert -crop 50%X100% +repage [source.jpg] [dest.jpg]
+
+	- In the above "50%x100%" says to divide virtually by 50% and horizontally by 100% (no crop). This means that I had two pages together. Adjust accordingly. Drag file names onto the terminal window.
+
+	- Sometimes magazine's included bonus content, change these file names so that they appear JUST BEFORE the final cover. That way the final cover can be shown as a single page.
+
+- Rename the pdf file to the volume number for the issue (eg 1.pdf for nintendo power volume one)
+
+- Open FlowPaper Desktop Publisher. DOn't know what this is? You paid $95 for a license! Don't forget that. Search your emails for a serial if you don't have it installed.
+
+- Import the pdf file.
+
+- When asked for a template. Select "Saved Style Templates". There should be one called "retrogamemags"
+
+- If you do not have this template. No problem. I included it in the /tools directort of this project. Simply drop the template into the location where FlowPaper is installed (/Documents/FlowPaper i think)
+
+- You might need to adjust some settings on the left. I had to select "All Pages" and make the page turn type "3D Curved". I guess not everthing is saved to the template.flow
+
+- If successful, the "splitting" dialog will show.
+
+	Set the Table of Contents
+
+	===
+
+	- open the magazine until you find its TOC, note the page number
+
+	- select the TOC tab
+
+	- click the + button
+
+	- use "Table of Contents" for the header and select the page
+
+	- done!
+
+
+- ensure navagation is working properly. does the final page number match the toolbar nav? It needs to be correct since from the table of contents you can enter a destination. The pages must match!!!
+
+- click publish
+
+- enter the domain "dl.dropboxusercontent.com". This is so that you can host from dropbox. This might change later!
+
