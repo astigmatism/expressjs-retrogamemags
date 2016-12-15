@@ -4,9 +4,9 @@ expressjs-retrogamemags
 
 Converting Magazines from RetroMags.com
 
-- Magazines at retromags come as a series of jpg's, usually one per page but no always!
+- Magazines at retromags come as a series of jpg's, usually one per page but not always!
 
-- Extract the magazine and look through each page.
+- Extract the magazine and look through each page (image file).
 
 - Ensure each page is uniformly sized to every other page! Magazines are like this in the real world! If some are not, follow this handy subsection:
 
@@ -22,40 +22,33 @@ Converting Magazines from RetroMags.com
 
 	- In the above "50%x100%" says to divide virtually by 50% and horizontally by 100% (no crop). This means that I had two pages together. Adjust accordingly. Drag file names onto the terminal window.
 
-	- Sometimes magazine's included bonus content, change these file names so that they appear JUST BEFORE the final cover. That way the final cover can be shown as a single page.
+	- Magazine order is very important. It needs to begin with page 1 (the front cover). This is so that the table of contents links match the actual page number of the magazine
 
-- Rename the pdf file to the volume number for the issue (eg 1.pdf for nintendo power volume one)
+	- Sometimes magazine's included bonus content, change these file names so that they appear JUST BEFORE the final cover.
+
+- Convert the images to pdf! You can do this with the custom automator task you created. It travels with your iCloud account so I hope you never lose it!
+
+- open the pdf with preview and ensure the page number of the pdf matches the page number of the magazine. If it does not, find the culprit and move it to the end of the magazine where page numbers do not matter.
 
 - Open FlowPaper Desktop Publisher. DOn't know what this is? You paid $95 for a license! Don't forget that. Search your emails for a serial if you don't have it installed.
 
 - Import the pdf file.
 
-- When asked for a template. Select "Saved Style Templates". There should be one called "retrogamemags"
+- When asked for a template. Select "Saved Style Templates". There should be one called "retrogamemags" (it doesn't really matter since I create UI from a saved template in code)
 
-- If you do not have this template. No problem. I included it in the /tools directort of this project. Simply drop the template into the location where FlowPaper is installed (/Documents/FlowPaper i think)
+- watch the page count, you'll need it for the json entry
 
-- You might need to adjust some settings on the left. I had to select "All Pages" and make the page turn type "3D Curved". I guess not everthing is saved to the template.flow
+- ensure navagation is working properly. does the page number match the toolbar nav? It needs to be correct since from the table of contents you can enter a destination. The pages must match!!!
 
-- If successful, the "splitting" dialog will show.
-
-	Set the Table of Contents
-
-	===
-
-	- open the magazine until you find its TOC, note the page number
-
-	- select the TOC tab
-
-	- click the + button
-
-	- use "Table of Contents" for the header and select the page
-
-	- done!
-
-
-- ensure navagation is working properly. does the final page number match the toolbar nav? It needs to be correct since from the table of contents you can enter a destination. The pages must match!!!
+- ensure "maximum" is selected for quality
 
 - click publish
 
+- enter the appropriate dropbox folder location
+
 - enter the domain "dl.dropboxusercontent.com". This is so that you can host from dropbox. This might change later!
+
+- enter data.json details :)
+
+- run /standardizeui
 

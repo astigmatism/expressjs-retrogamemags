@@ -1,0 +1,296 @@
+{
+	"np": {
+		"1": {
+			"title": "Nintendo Power Issue 1",
+			"month": "July/August",
+			"year": 1988,
+			"onshelf": 583718400,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 112,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Super Mario Bros. 2": 6,
+				"Second Quest of Zelda": 26,
+				"Baseball Round-Up": 41,
+				"Counselors' Corner": 50,
+				"Howard & Nester": 55,
+				"Classified Information": 56,
+				"Double Dragon": 62,
+				"Pak Watch": 86,
+				"Now Playing": {
+					"Gauntlet": 70,
+					"Contra": 74,
+					"Wheel of Fourtune & Jeopardy": 78
+				},
+				"Video Shorts": 80,
+				"Player's Contest": 88,
+				"The Player's Poll": 89,
+				"Player's Forum": {
+					"NES Journal": 92,
+					"Mailbox": 96,
+					"NES Achievers": 98,
+					"Video Spotlight": 100,
+					"Top 30": 102
+				},
+				"Next Issue/From the Editor": 105
+			}
+		},
+		"2": {
+			"title": "Nintendo Power Issue 2",
+			"month": "September/October",
+			"year": 1988,
+			"onshelf": 589075200,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 113,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Bionic Commando": 6,
+				"Life Force": 18,
+				"Castlevania II: Simon's Quest": 24,
+				"Super Mario Bros. 2": 41,
+				"Renegade": 50,
+				"R.C. Pro-Am": 54,
+				"Classified Information": 60,
+				"Howard & Nester": 63,
+				"Counselors' Corner": 64,
+				"Player's Contest": 88,
+				"The Player's Poll": 91,
+				"Next Issue/From the Editor": 105,
+				"Now Playing": {
+					"Golgo 13": 68,
+					"Blaster Master": 74
+				},
+				"Video Shorts": 78,
+				"The Classics": 82,
+				"Pak Watch": 85,
+				"Player's Forum": {
+					"NES Journal": 92,
+					"Mail Box": 96,
+					"NES Achievers": 98,
+					"Video Spotlight": 100,
+					"Top 30": 102
+				}
+			}
+		},
+		"3": {
+			"title": "Nintendo Power Issue 3",
+			"month": "November/December",
+			"year": 1988,
+			"onshelf": 594345600,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 110,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Track & Field II": 6,
+				"Micky Mousecapade": 20,
+				"Howard & Nester": 24,
+				"Blaster Master": 26,
+				"Role Playing Game Special": 41,
+				"Counselors' Corner": 48,
+				"Classified Information": 52,
+				"Advantage/Max": 56,
+				"Now Playing": {
+					"Anticipation": 58,
+					"Blades of Steel": 64,
+					"Cobra Command": 68,
+					"Racket Attack": 72
+				},
+				"Video Shorts": 74,
+				"Pak Watch": 78,
+				"Captain Nintendo": 82,
+				"Giant Giveaway": 85,
+				"Player's Forum": {
+					"NES Journal": 92,
+					"Mailbox": 96,
+					"NES Achiever": 98,
+					"Video Spotlight": 100,
+					"Top 30": 102
+				},
+				"Players' Contest": 88,
+				"Players' Poll": 89,
+				"Next Issue/From the Editor": 105
+			}
+		},
+		"4": {
+			"title": "Nintendo Power Issue 4",
+			"month": "January/February",
+			"year": 1989,
+			"onshelf": 599616000,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 110,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Wrestlemania": 6,
+				"Captain Nintendo": 12,
+				"Sesame Street 1.2.3": 16,
+				"Zelda II: The Adventure of Link": 18,
+				"Skate or Die": 41,
+				"Howard and Nester": 46,
+				"Counselors' Corner": 48,
+				"Classified Information": 52,
+				"Now Playing": {
+					"Marble Madness": 56,
+					"Operation Wolf": 60,
+					"Nintendo Power Bowl": 64,
+					"Metal Gear": 74
+				},
+				"Video Shorts": 78,
+				"Pak Watch": 84,
+				"Player's Forum": {
+					"NES Journal": 92,
+					"Mail Box": 96,
+					"NES Achievers": 98,
+					"Video Spotlight": 100,
+					"Top 30": 102
+				},
+				"Player's Contest": 88,
+				"The Player's Poll": 89,
+				"Next Issue/From the Editor": 105
+			}
+		},
+		"5": {
+			"title": "Nintendo Power Issue 5",
+			"month": "March/April",
+			"year": 1989,
+			"onshelf": 604713600,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 110,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Zelda II: The Adventure of Link": 8,
+				"C.E.S. Report": 15,
+				"Ninja Gaiden": 20,
+				"Hudson's Adventure Island": 31,
+				"Previews": {
+					"Strider": 41,
+					"Cobra Triangle": 44,
+					"Bayou Billy": 46,
+					"Teenage Mutant Ninja Turtles": 52
+				},
+				"Counselors' Corner": 56,
+				"Howard & Nester": 60,
+				"Classified Information": 62,
+				"Power Pad Party": 73,
+				"Video Shorts": 78,
+				"Nintendo Power Awards '88": 88,
+				"Pak Watch": 100,
+				"Player's Forum": {
+					"Mail Box": 6,
+					"Top 30": 70,
+					"NES Journal": 84,
+					"Video Spotlight": 96,
+					"NES Achievers": 98
+				},
+				"The Player's Poll": 89,
+				"Rating System Explaination": 94,
+				"Next Issue": 105
+			}
+		},
+		"6": {
+			"title": "Nintendo Power Issue 6",
+			"month": "May/June",
+			"year": 1989,
+			"onshelf": 609984000,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 110,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Teenage Mutant Ninja Turtles": 8,
+				"Nester Awards": 18,
+				"Bayou Billy": 22,
+				"Cobra Triangle": 28,
+				"Life Force": 32,
+				"Ninja Gaiden": 60,
+				"Previews": {
+					"Mega Man II": 41,
+					"Faxanadu": 45,
+					"Uncle Fester's Quest": 48,
+					"Clash at Demonhead": 50,
+					"Dragon Warrior": 52
+				},
+				"Howard & Nester": 54,
+				"Counselors' Corner": 56,
+				"Friends": 68,
+				"Nintendo Power Critics": 73,
+				"Father's Dat Special": 74,
+				"Classified Information": 76,
+				"Video Shorts": 82,
+				"Pak Watch": 100,
+				"Player's Forum": {
+					"Mail Box": 6,
+					"Top 30": 70,
+					"NES Journal": 92,
+					"Video Spotlight": 96,
+					"NES Achievers": 98
+				},
+				"Player's Poll/Contest": 88,
+				"Next Issue/From the Editor": 105,
+				"Back Issues": 106
+			}
+		},
+		"7": {
+			"title": "Nintendo Power Issue 7",
+			"month": "July/August",
+			"year": 1989,
+			"onshelf": 615254400,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 104,
+			"price": "",
+			"contents": {
+				"Contents": 4,
+				"Mega Man II": 8,
+				"Faxanadu": 24,
+				"Dragon Warrior": 39,
+				"Strider": 51,
+				"Player's Forum": {
+					"Players' Pulse": 6,
+					"Top 30": 36,
+					"NES Achievers": 82,
+					"NES Journal": 92
+				},
+				"Counselors' Corner": 32,
+				"Howard and Nester": 70,
+				"Classified Info": 72,
+				"Previews": {
+					"Robocop": 57,
+					"Duck Tales": 60,
+					"Who Framed Roger Rabbit?": 64,
+					"Ironsword": 68
+				},
+				"Video Shorts": 77,
+				"Pak Watch": 84,
+				"1-Up Special": 89,
+				"Next Issue/From the Editor": 96,
+				"Back Issue": 97,
+				"Player's Poll": 98
+			}
+		}
+	}
+}
