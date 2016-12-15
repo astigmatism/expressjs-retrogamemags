@@ -105,7 +105,11 @@ FlowPaperHelpers.correctIndexHtml = function(mag, issue, issuepath, uiTemplate, 
             //document title
             contents = contents.replace(/<title>(.*)<\/title>/g, '<title>' + title + '</title>');
 
+            //publication title
             contents = contents.replace(/PublicationTitle\s+:.*,/g, 'PublicationTitle: \'' + encodeURIComponent(title) + '\',');
+
+            //google anal
+            contents = contents.replace(/TrackingNumber\s+:.*,/g, 'TrackingNumber: \'UA-89018898-1\',');            
 
             fs.outputFile(xmlPath, contents, function (err) {
                 if (err) {
