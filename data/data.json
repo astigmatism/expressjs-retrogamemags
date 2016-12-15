@@ -481,6 +481,102 @@
 				"Next Issue/From the Editor": 97,
 				"Player's Poll": 98
 			}
+		},
+		"11": {
+			"title": "Nintendo Power Issue 11",
+			"month": "March/April",
+			"year": 1990,
+			"onshelf": 636249600,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 108,
+			"price": "",
+			"contents": {
+				"Features": {
+					"Super Mario Bros. 3": 8,
+					"Silent Service": 16,
+					"Pinbot": 22,
+					"720": 25,
+					"A Boy and His Blob": 28,
+					"Wrath of the Black Manta": 34,
+					"Astyanax": 36
+				},
+				"Special Features": {
+					"CES Report": 20,
+					"Game Boy": 51,
+					"Dragon Warrior": 55,
+					"New Games": 59,
+					"Nintendo Power Awards 89'": 96
+				},
+				"Howard and Nester": 32,
+				"Counselor's Corner": 68,
+				"Classified Information": 72,
+				"Previews": {
+					"Final Fantasy": 44,
+					"Code Name Viper": 46,
+					"Super C": 48
+				},
+				"Video Shorts": 76,
+				"Pak Watch": 90,
+				"Player's Forum": {
+					"Player's Pulse": 6,
+					"Top 30": 40,
+					"NES Achievers": 84,
+					"NES Journal": 86
+				},
+				"Back Issues": 94,
+				"Next Issue/From the Editor": 95,
+				"Player's Poll": 98
+			}
+		},
+		"12": {
+			"title": "Nintendo Power Issue 12",
+			"month": "May/June",
+			"year": 1990,
+			"onshelf": 641520000,
+			"publisher": "Nintendo of America",
+			"editor": "Howard Phillips",
+			"country": "United States",
+			"language": "en",
+			"pages": 106,
+			"price": "",
+			"contents": {
+				"Features": {
+					"Final Fantasy": 8,
+					"Super C": 16,
+					"DynoWarz": 22,
+					"Code Name: Viper": 32,
+					"Burai Fighter": 38
+				},
+				"Special Features": {
+					"Nester Awards": 26,
+					"New Games": 45,
+					"Game Boy": 51,
+					"Strategy Guide Update": 94
+				},
+				"Howard and Nester": 30,
+				"Counselor's Corner": 68,
+				"Classified Information": 72,
+				"Previews": {
+					"Ninja Gaiden II: The Dark Side of Chaos": 60,
+					"Startropics": 62,
+					"Golgo 13: The Mafat Conspiracy": 64,
+					"Crystalis": 66
+				},
+				"Video Shorts": 76,
+				"Pak Watch": 88,
+				"Player's Forum": {
+					"Player's Pulse": 6,
+					"Top 30": 42,
+					"NES Achievers": 82,
+					"NES Journal": 84
+				},
+				"Back Issues": 96,
+				"Next Issue/Letter From the Editor": 97,
+				"Player's Poll": 98
+			}
 		}
 	}
 }
