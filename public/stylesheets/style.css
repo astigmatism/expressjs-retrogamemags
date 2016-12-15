@@ -72,7 +72,7 @@ a {
 }
 
 .mag img {
-	width: 120px;
+	height: 170px;
 
 	-webkit-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.55);
 	-moz-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.55);
@@ -98,5 +98,5 @@ a {
     height: 265px;
     display: block;
     content: "";
-    margin-left: -38px;
+    margin-left: -26px;
 }
