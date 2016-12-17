@@ -19,8 +19,7 @@ RetroGameMags.prototype._toolTips = function() {
     $('.tooltip').tooltipster({
         theme: 'tooltipster-shadow',
         contentAsHTML: true,
-        animation: 'grow',
-        delay: 100
+        animation: 'grow'
     });
 };
 

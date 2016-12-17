@@ -6,26 +6,26 @@ var deepmerge = require('deepmerge')
 FlowPaperHelpers = function() {
 };
 
-FlowPaperHelpers.standardizeUi = function(magazinePath, uiTemplate, magazineData, callback) {
+FlowPaperHelpers.standardizeUi = function(publicationPath, uiTemplate, retroGameMagsData, callback) {
 
     //open magazines folder
-    fs.readdir(magazinePath, function(err, mags) {
+    fs.readdir(publicationPath, function(err, publications) {
         if (err) {
             return callback(err);
         }
 
         //loop over all title (game) folders
-        async.eachSeries(mags, function(mag, nextmag) {
+        async.eachSeries(publications, function(publication, nextpublication) {
 
-            fs.stat(magazinePath + '/' + mag, function(err, stats) {
+            fs.stat(publicationPath + '/' + publication, function(err, stats) {
 
                 //bail if a file
                 if (stats.isFile()) {
-                    return nextmag();
+                    return nextpublication();
                 }
 
-                //open each mag folder
-                fs.readdir(magazinePath + '/' + mag, function(err, issues) {
+                //open each publication folder
+                fs.readdir(publicationPath + '/' + publication, function(err, issues) {
                     if (err) {
                         return callback(err);
                     }
@@ -33,7 +33,7 @@ FlowPaperHelpers.standardizeUi = function(magazinePath, uiTemplate, magazineData
                     //loop over all issues
                     async.eachSeries(issues, function(issue, nextissue) {
 
-                        var issuepath = magazinePath + '/' + mag + '/' + issue;
+                        var issuepath = publicationPath + '/' + publication + '/' + issue;
 
                         fs.stat(issuepath, function(err, stats) {
 
@@ -44,13 +44,13 @@ FlowPaperHelpers.standardizeUi = function(magazinePath, uiTemplate, magazineData
 
                             //actual work here :)
                             
-                            FlowPaperHelpers.correctUI_Zine(mag, issue, issuepath, uiTemplate, magazineData, function(err) {
+                            FlowPaperHelpers.correctUI_Zine(publication, issue, issuepath, uiTemplate, retroGameMagsData, function(err) {
                                 if (err) {
                                     console.log(err); //alert but continue
                                 }
 
 
-                                FlowPaperHelpers.correctIndexHtml(mag, issue, issuepath, uiTemplate, magazineData, function(err) {
+                                FlowPaperHelpers.correctIndexHtml(publication, issue, issuepath, uiTemplate, retroGameMagsData, function(err) {
                                     if (err) {
                                         console.log(err); //alert but continue
                                     }
@@ -65,7 +65,7 @@ FlowPaperHelpers.standardizeUi = function(magazinePath, uiTemplate, magazineData
                         if (err) {
                             return callback(err);
                         }
-                        return nextmag();
+                        return nextpublication();
                     });
 
                 });
@@ -81,16 +81,16 @@ FlowPaperHelpers.standardizeUi = function(magazinePath, uiTemplate, magazineData
     });
 };
 
-FlowPaperHelpers.correctIndexHtml = function(mag, issue, issuepath, uiTemplate, magazineData, callback) {
+FlowPaperHelpers.correctIndexHtml = function(publication, issue, issuepath, uiTemplate, retroGameMagsData, callback) {
 
     var xmlPath = issuepath + '/index.html';
     var beforePath = issuepath + '/index_before.json';
     var afterPath = issuepath + '/index_after.json'
 
 
-    if (magazineData[mag] && magazineData[mag][issue] && magazineData[mag][issue]) {
+    if (retroGameMagsData.publications[publication] && retroGameMagsData.publications[publication].issues[issue]) {
         
-        var data = magazineData[mag][issue];
+        var issueData = retroGameMagsData.publications[publication].issues[issue];
 
         //since we cant read the html file as xml (I tired) we'll use regex to replace things        
 
@@ -100,7 +100,7 @@ FlowPaperHelpers.correctIndexHtml = function(mag, issue, issuepath, uiTemplate, 
                 return callback(err);
             }
 
-            var title = data.title + ' (' + data.month + ' ' + data.year + ')';
+            var title = issueData.title + ' (' + issueData.month + ' ' + issueData.year + ')';
 
             //document title
             contents = contents.replace(/<title>(.*)<\/title>/g, '<title>' + title + '</title>');
@@ -126,7 +126,7 @@ FlowPaperHelpers.correctIndexHtml = function(mag, issue, issuepath, uiTemplate, 
 
 };
 
-FlowPaperHelpers.correctUI_Zine = function(mag, issue, issuepath, uiTemplate, magazineData, callback) {
+FlowPaperHelpers.correctUI_Zine = function(publication, issue, issuepath, uiTemplate, retroGameMagsData, callback) {
 
     var xmlPath = issuepath + '/UI_Zine.xml';
     var beforePath = issuepath + '/UI_Zine_before.json';
@@ -151,7 +151,7 @@ FlowPaperHelpers.correctUI_Zine = function(mag, issue, issuepath, uiTemplate, ma
         //merge the template onto the resulting ui file, template overrides
         var mergedJson = deepmerge(json, uiTemplate);
 
-        FlowPaperHelpers.writeTableOfContents(mag, issue, issuepath, magazineData, mergedJson, function(err, tocJson) {
+        FlowPaperHelpers.writeTableOfContents(publication, issue, issuepath, retroGameMagsData, mergedJson, function(err, tocJson) {
             if (err) {
                 return callback(err);
             }
@@ -176,11 +176,11 @@ FlowPaperHelpers.correctUI_Zine = function(mag, issue, issuepath, uiTemplate, ma
     });
 };
 
-FlowPaperHelpers.writeTableOfContents = function(mag, issue, issuepath, magazineData, json, callback) {
+FlowPaperHelpers.writeTableOfContents = function(publication, issue, issuepath, retroGameMagsData, json, callback) {
 
-    if (magazineData[mag] && magazineData[mag][issue] && magazineData[mag][issue].contents) {
+    if (retroGameMagsData.publications[publication] && retroGameMagsData.publications[publication].issues[issue] && retroGameMagsData.publications[publication].issues[issue].contents) {
 
-        var issuedata = magazineData[mag][issue].contents;
+        var contentsData = retroGameMagsData.publications[publication].issues[issue].contents;
         var outline = json.FlowPaper_Zine_UIConfiguration.outline[0].node = [];
 
 
@@ -224,7 +224,7 @@ FlowPaperHelpers.writeTableOfContents = function(mag, issue, issuepath, magazine
             });
 
         };
-        work(issuedata, outline);
+        work(contentsData, outline);
 
         callback(null, json);
 

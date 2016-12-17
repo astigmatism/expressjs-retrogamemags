@@ -3,15 +3,13 @@ extends layout
 block content
 
 	div(class='bookshelf')
-		div(class='shelf')
-
-			each issueData, issue in data.issues
-				if parseInt(issue,10) % 5 == 1
-					div(class='row')
-						ul
-							- for (var i = parseInt(issue, 10); i < (parseInt(issue, 10) + 5); ++i) {
-								if data.issues[i]
-									li(class='shelf-magazine tooltip', title='##{i} #{data.issues[i].month} #{data.issues[i].year}')
-										a(href='https://dl.dropboxusercontent.com/u/1433808/retrogamemags/#{publication}/#{i}/index.html', target='_blank')
-											img(src='https://dl.dropboxusercontent.com/u/1433808/retrogamemags/#{publication}/#{i}/docs/#{publication}_#{i}.pdf_1_thumb.jpg')
-							- }
+		each issueData, issue in data.issues
+			if parseInt(issue,10) % 5 == 1
+				div(class='shelf')
+					ul
+						- for (var i = parseInt(issue, 10); i < (parseInt(issue, 10) + 5); ++i) {
+							if data.issues[i]
+								li(class='shelf-magazine tooltip', title='##{i} #{data.issues[i].month} #{data.issues[i].year}')
+									a(href='https://dl.dropboxusercontent.com/u/1433808/retrogamemags/#{publication}/#{i}/index.html', target='_blank')
+										img(src='https://dl.dropboxusercontent.com/u/1433808/retrogamemags/#{publication}/#{i}/docs/#{publication}_#{i}.pdf_1_thumb.jpg')
+						- }

@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 	});
 });
 
-router.get('/standardizeui', function(req, res, next) {
+router.get('/ui', function(req, res, next) {
 
 	DataService.getFile('/data/data.json', function(err, data) {
 		if (err) {

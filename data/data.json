@@ -819,6 +819,46 @@
 						},
 						"Index": 79
 					}
+				},
+				"18": {
+					"title": "Nintendo Power Issue 18",
+					"month": "November/December",
+					"year": 1990,
+					"onshelf": 657417600,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 106,
+					"price": "",
+					"contents": {
+						"Contents": 4,
+						"Features": {
+							"Solar Jetman": 8,
+							"Little Nemo The Dream Master": 16,
+							"Dr. Mario": 30,
+							"Castlevania III": 51
+						},
+						"Special Features": {
+							"Game Boy": 39,
+							"Four-Player Extra": 82
+						},
+						"Howard and Nester": 14,
+						"Counselor's Corner": 26,
+						"Classified Information": 75,
+						"Pak Watch": 86,
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Top 30": 72,
+							"Now Playing": 80,
+							"NES Achievers": 84,
+							"Celebrity Profile": 93,
+							"Nintendo Power Fest 1990": 94
+						},
+						"Bulletin Board": 96,
+						"Next Issue/Letter from the Editor": 97,
+						"Player's Poll": 98
+					}
 				}
 			}
 		}
