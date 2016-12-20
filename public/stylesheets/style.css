@@ -7,7 +7,6 @@ body,html {
 
 body {
 
-	overflow: hidden;
 	position: relative;
 	background: url(/images/White-Brick-Background.jpg) center center repeat-y;
 	-webkit-transition: height 1s;

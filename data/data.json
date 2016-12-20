@@ -859,6 +859,483 @@
 						"Next Issue/Letter from the Editor": 97,
 						"Player's Poll": 98
 					}
+				},
+				"19": {
+					"title": "Nintendo Power Issue 19",
+					"month": "December",
+					"year": 1990,
+					"onshelf": 660009600,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 76,
+					"price": "",
+					"contents": {
+						"Contents": 3,
+						"4-Player Fun!!": 4,
+						"NES Play Action Football": 9,
+						"Gauntlet II": 25,
+						"Nintendo World Cup": 37,
+						"Swords and Serpents": 47,
+						"Ivan Ironman Stewart's Super Off Road": 61,
+						"4-Player Round-Up": 67
+					}
+				},
+				"20": {
+					"title": "Nintendo Power Issue 20",
+					"month": "January",
+					"year": 1991,
+					"onshelf": 662688000,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 106,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Mega Man III": 8,
+							"The Immortal": 32,
+							"Deja Vu": 44,
+							"Gremlins 2": 51
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 92
+						},
+						"Game Boy": {
+							"Dragon's Lair": 64,
+							"Mercenary Force": 66,
+							"Burai Fighter Deluxe": 67,
+							"F-1 Race": 68,
+							"Super Scrabble": 69
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 86,
+							"Top 30": 88
+						},
+						"Tips From the Pros": {
+							"Classified Information": 40,
+							"Howard & Nester": 72,
+							"Counselor's Corner": 78
+						},
+						"Special Reports": {
+							"Today's Technology": 28,
+							"The Miracle Piano Teaching System": 74
+						},
+						"The Info Zone": {
+							"Player's Poll": 82,
+							"Celebrity Profile": 91,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"21": {
+					"title": "Nintendo Power Issue 21",
+					"month": "February",
+					"year": 1991,
+					"onshelf": 665366400,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"TMNT II The Arcade Game": 8,
+							"Quantum Fighter": 26,
+							"Startropics": 38,
+							"Magician": 58,
+							"Ultima Quest of the Avatar": 70
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 92
+						},
+						"Game Boy": {
+							"Gremlins 2": 52,
+							"Round Ball Roundup": 54
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Top 30": 86,
+							"NES Achievers": 90
+						},
+						"Tips from the Pros": {
+							"Howard & Nester": 24,
+							"Classified Information": 34,
+							"Counselor's Corner": 78
+						},
+						"Special Reports": {
+							"Power to the Player": 66
+						},
+						"The Info Zone": {
+							"Player's Poll": 82,
+							"Celebrity Profile": 89,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"22": {
+					"title": "Nintendo Power Issue 22",
+					"month": "March",
+					"year": 1991,
+					"onshelf": 667785600,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Metalstorm": 8,
+							"Startropics": 22,
+							"Hudson's Adventure Island II": 46,
+							"G.I. Joe": 64,
+							"Princess Tomato in the Salad Kingdom": 78
+						},
+						"Special Report": {
+							"Inside the NES": 60
+						},
+						"Tips from the Pros": {
+							"Howard & Nester": 20,
+							"Classified Information": 42,
+							"Counselor's Corner": 84
+						},
+						"Video Updates": {
+							"Now Playing": 74,
+							"Pak Watch": 92
+						},
+						"Game Boy": {
+							"Operation C": 52,
+							"The Rescue of Princess Blobette": 54
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 76,
+							"Top 30": 88
+						},
+						"The Info Zone": {
+							"Nintendo Power Awards '90": 80,
+							"Celebrity Profile": 91,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"23": {
+					"title": "Nintendo Power Issue 23",
+					"month": "April",
+					"year": 1991,
+					"onshelf": 670464000,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 106,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Power Blade": 8,
+							"Totally Rad": 28,
+							"Sword Master": 38,
+							"S.C.A.T.": 48,
+							"Monopoly": 70
+						},
+						"Game Boy": {
+							"The Sword of Hope": 52,
+							"Ultima": 56,
+							"R-Type": 60,
+							"Micky's Dangerous Chase": 62,
+							"WWF Superstars": 64,
+							"Pac-Man": 66,
+							"Caesar's Palace": 67
+						},
+						"Tips from the Pros": {
+							"Howard & Nester": 24,
+							"Classified Information": 34,
+							"Counselor's Corner": 78
+						},
+						"Video Updates": {
+							"Now Playing": 87,
+							"Pak Watch": 92
+						},
+						"Special Report": {
+							"The British Invasion": 44
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 76,
+							"Top 30": 84
+						},
+						"The Info Zone": {
+							"Special Announcement": 26,
+							"Player's Poll": 82,
+							"Bulletin Board": 98,
+							"Mext Issue": 99
+						}
+					}
+				},
+				"24": {
+					"title": "Nintendo Power Issue 24",
+					"month": "May",
+					"year": 1991,
+					"onshelf": 673056000,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 106,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Vice Project Doom": 8,
+							"The Rocketeer": 22,
+							"Lone Ranger": 46,
+							"The Adventures of Lolo 3": 68
+						},
+						"Tips from the Pros": {
+							"Howard & Nester": 20,
+							"Classified Information": 42,
+							"Counselor's Corner": 84
+						},
+						"Video Updates": {
+							"Now Playing": 89,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"Mysterium": 52,
+							"Gauntlet II": 56,
+							"Battle Unit Zeoth": 60,
+							"Nintendo World Cup": 62,
+							"Spot": 64,
+							"Chessmaster": 65
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 76,
+							"Top 30": 78
+						},
+						"The Info Zone": {
+							"Nintendo Power Awrds": 30,
+							"Battletoads: The Comic": 34,
+							"Celebrity Profile": 81,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"25": {
+					"title": "Nintendo Power Issue 25",
+					"month": "June",
+					"year": 1991,
+					"onshelf": 675734400,
+					"publisher": "Nintendo of America",
+					"editor": "Howard Phillips",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Battletoads": 8,
+							"NES Open Tournament Golf": 48,
+							"Day Dreamin' Davey": 70
+						},
+						"Tips from the Pros": {
+							"Howard & Nester": 68,
+							"Classified Information": 76,
+							"Counselor's Corner": 86
+						},
+						"Video Updates": {
+							"Now Playing": 80,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"The Hunt for Red October": 52,
+							"Fortified Zone": 58,
+							"Super R.C. Pro-Am": 62
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 84,
+							"Top 30": 90
+						},
+						"Special Report": {
+							"Introducing the Super NES": 44
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 93,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"26": {
+					"title": "Nintendo Power Issue 26",
+					"month": "July",
+					"year": 1991,
+					"onshelf": 678326400,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Robin Hood": 8,
+							"Rock in' Kats": 26,
+							"Little Mermaid": 38,
+							"Bill & Ted Excellent Video Game Adventure": 42,
+							"Super NES": 48
+						},
+						"Tips from the Pros": {
+							"Nester": 24,
+							"Classified Information": 34,
+							"Counselor's Corner": 84
+						},
+						"Video Updates": {
+							"Now Playing": 78,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"Who Framed Roger Rabbit?": 52,
+							"The Infogenius": 58,
+							"Sneaky Snakes": 63,
+							"Navy Seals": 64,
+							"Dick Tracy": 68,
+							"Altered Space": 70,
+							"Blades of Steel": 74
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Player's Poll Contest": 82,
+							"Top 30": 88,
+							"NES Achievers": 92
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 91,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"27": {
+					"title": "Nintendo Power Issue 27",
+					"month": "August",
+					"year": 1991,
+					"onshelf": 681004800,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Ninja Gaiden III": 8,
+							"Dragon Warrior II & III": 26,
+							"Darkman": 46
+						},
+						"Special Features": {
+							"Super Mario World": 72,
+							"Gradius III": 76,
+							"Actrasier": 79
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 20,
+							"Classified Information": 22,
+							"Counselor's Corner": 42
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 92
+						},
+						"Game Boy": {
+							"Mega Man in Dr. Wily's Reevenge": 52,
+							"Final Fantasy Legend II": 58,
+							"Days of Thunder": 66
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 40,
+							"Player's Poll Contest": 82,
+							"Top 30": 88
+						},
+						"The Info Zone": {
+							"World of Nintendo": 87,
+							"Celebrity Profile": 91,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"28": {
+					"title": "Nintendo Power Issue 28",
+					"month": "September",
+					"year": 1991,
+					"onshelf": 683683200,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Super Mario World": 8,
+							"Star Wars": 26,
+							"Smash TV": 34,
+							"Kick Master": 42,
+							"Wurm": 48
+						},
+						"SNES Showcase": {
+							"Castlevania IV": 70,
+							"Simcity": 74,
+							"Final Fight": 77
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 24,
+							"Classified Information": 38,
+							"Counselor's Corner": 84
+						},
+						"Video Updates": {
+							"Now Playing": 80,
+							"Pak Watch": 92
+						},
+						"Game Boy": {
+							"Final Fantasy Adventure": 52,
+							"Tecmo Bowl": 62,
+							"Marble Madness": 64
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 68,
+							"Player's Poll Contest": 82,
+							"Top 30": 88
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 91,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
 				}
 			}
 		}
