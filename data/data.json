@@ -25,6 +25,36 @@
 				}
 			}
 		},
+		"gpro": {
+			"name":"Game Pro",
+			"issues": {
+				"1": {
+					"title": "GamePro Issue 1",
+					"month": "May",
+					"year": 1989,
+					"onshelf": 609984000,
+					"publisher": "IDG Communications",
+					"editor": "Don Ferrell",
+					"country": "United States",
+					"language": "en",
+					"pages": 60,
+					"price": "",
+					"contents": {
+						"Contents": 2,
+						"Cutting Edge": 6,
+						"Personality Profile": 10,
+						"Hot at the Arcades": 12,
+						"ProViews": 14,
+						"Secret Weapons": 34,
+						"Overseas ProSpects": 40,
+						"ProNews Report": 44,
+						"Short ProShots": 46,
+						"ProArtist Series": 53,
+						"ProChallenge Board": 55
+					}
+				}
+			}
+		},
 		"np": {
 			"name": "Nintendo Power",
 			"issues": {

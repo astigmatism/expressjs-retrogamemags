@@ -2,11 +2,22 @@ var express = require('express');
 var config = require('config');
 var FlowPaperHelpers = require('../tools/flowpaperhelpers.js');
 var DataService = require('../services/data.js');
+var LibraryService = require('../services/library.js');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-	res.render('index', { 
+	res.render('store', { 
 		title: 'Retro Game Mags'
+	});
+});
+
+router.get('/bydate', function(req, res, next) {
+
+	LibraryService.getIssuesByDate(min, max, function(err, results) {
+		if (err) {
+            return res.json(err);
+        }
+        res.json(results);
 	});
 });
 
