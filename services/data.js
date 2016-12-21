@@ -1,6 +1,9 @@
 var NodeCache = require('node-cache');
 var fs = require('fs-extra');
 var async = require('async');
+var pako = require('pako');
+var btoa = require('btoa');
+var atob = require('atob');
 
 var nodecache = new NodeCache({
     stdTTL: 100,
@@ -108,6 +111,51 @@ DataService.setCache = function(key, data, cacheLifetime, callback) {
         }
         return;
     });
+};
+
+//order: stringify, encode, deflate, unescape, base64
+DataService.compress = {
+    bytearray: function(uint8array) {
+        var deflated = pako.deflate(uint8array, {to: 'string'});
+        return btoa(deflated);
+    },
+    json: function(json) {
+        var string = JSON.stringify(json);
+        var deflate = pako.deflate(string, {to: 'string'});
+        var base64 = btoa(deflate);
+        return base64;
+    },
+    string: function(string) {
+        var deflate = pako.deflate(string, {to: 'string'});
+        var base64 = btoa(deflate);
+        return base64;
+    },
+    gamekey: function(system, title, file) {
+        return this.json({
+            system: system,
+            title: title,
+            file: file
+        });
+    }
+};
+
+//order: base 64, escape, inflate, decode, parse
+DataService.decompress = {
+    bytearray: function(item) {
+        var decoded = new Uint8Array(atob(item).split('').map(function(c) {return c.charCodeAt(0);}));
+        return pako.inflate(decoded);
+    },
+    json: function(item) {
+        var base64 = atob(item);
+        var inflate = pako.inflate(base64, {to: 'string'});
+        var json = JSON.parse(inflate);
+        return json;
+    },
+    string: function(item) {
+        var base64 = atob(item);
+        var inflate = pako.inflate(base64, {to: 'string'});
+        return inflate;
+    }
 };
 
 DataService.createFolder = function(path, overwrite, callback) {
