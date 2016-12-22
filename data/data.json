@@ -1366,6 +1366,20 @@
 							"Next Issue": 99
 						}
 					}
+				},
+				"29": {
+					"title": "Nintendo Power Issue 29",
+					"month": "October",
+					"year": 1991,
+					"onshelf": 683683200,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+					}
 				}
 			}
 		}
