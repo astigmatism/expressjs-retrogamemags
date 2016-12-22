@@ -7,7 +7,11 @@ var router = express.Router();
 
 router.get('/bydate', function(req, res, next) {
 
-	LibraryService.getIssuesByDate(min, max, function(err, results) {
+	var min = req.query.min;
+	var max = req.query.max;
+	var publication = req.query.publication;
+
+	LibraryService.getIssuesByDate(min, max, publication, function(err, results) {
 		if (err) {
             return res.json(err);
         }
@@ -27,6 +31,20 @@ router.get('/ui', function(req, res, next) {
 	            return res.json(err);
 	        }
 	        res.json(data);
+		});
+	});
+});
+
+router.all('/', function(req, res, next) {
+
+	LibraryService.getIssues(undefined, function(err, publications) {
+		if (err) {
+            return res.json(err);
+        }
+
+        res.render('shelf', {
+			publications: DataService.compress.json(publications),
+			config: ''
 		});
 	});
 });

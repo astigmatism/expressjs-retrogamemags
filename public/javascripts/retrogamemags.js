@@ -11,26 +11,36 @@ var retroGameMags = (function() {
 
     var _stockShelves = function($, target, publications) {
 
+        var issueCount = 0;
+
+        //get total number of issues to build some shelving
+        for (publication in publications) {
+            if (publications[publication].issues) {
+                for (issue in publications[publication].issues) {
+                    issueCount++;
+                }
+            }
+        }
+
+        for (var i = 0; i < issueCount; ++i) {
+            if (i % 5 === 1) {
+                $(target).append('<div class="shelf"><ul></ul></div>');
+            }
+        }
+
         //for each publication and each issue
+        var shelfIndex = 0;
+
         for (publication in publications) {
             for (issue in publications[publication].issues) {
                 
-                //for every fifth, create a new shelf
-                var i = parseInt(issue, 10);
-                if (i % 5 === 1) {
+                var currentShelf = $(target).find('ul')[shelfIndex];
 
-                    var shelf = $('<div class="shelf"><ul></ul></div>');
+                var issueData = publications[publication].issues[issue];
+                $(currentShelf).append(_buildMagazineTemplate(publication, issue, issueData));
 
-                    //on the shelf, for the next 5 magazines, build a template and append them
-                    for (var j = i; j < (i + 5); ++j) {
-                        
-                        if (publications[publication].issues[j]) {
-                            var issueData = publications[publication].issues[j];
-                            $(shelf).find('ul').append(_buildMagazineTemplate(publication, j, issueData));
-                        }
-                    }
-
-                    $(target).append(shelf);
+                if (currentShelf.children.length === 5) {
+                    ++shelfIndex;
                 }
             }
         }
@@ -121,6 +131,8 @@ var retroGameMags = (function() {
 
             $(document).ready(function() {
                 
+                var target = $('#bookshelf');
+
                 //prepare date slider
                 $('#slider').dateRangeSlider({
                     bounds: {
@@ -147,15 +159,15 @@ var retroGameMags = (function() {
                 }).bind('valuesChanged', function(e, data){
 
                     $.get('/bydate?min=' + data.values.min + '&max=' + data.values.max, function(results) {
-
-                        console.log(results);
+                        $(target).empty();
+                        _stockShelves($, target, results);
                     });
                 });
 
                 //prepare stock
                 if (publications) {
                     publications = _decompress.json(publications);
-                    _stockShelves($, $('#bookshelf'), publications);
+                    _stockShelves($, target, publications);
                 }
 
 

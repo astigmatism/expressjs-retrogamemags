@@ -23,17 +23,36 @@ LibraryService.getIssues = function(publicationFilter, callback) {
     });
 };
 
-LibraryService.getIssuesByDate = function(minDate, maxDate, callback) {
-    
-    var result = [];
+LibraryService.getIssuesByDate = function(minDate, maxDate, publicationFilter, callback) {
 
-    DataService.getFile('/data/data.json', function(err, data) {
+    minDate = new Date(minDate);
+    maxDate = new Date(maxDate);
+
+    LibraryService.getIssues(publicationFilter, function(err, publications) {
         if (err) {
             return callback(err);
         }
 
+        //ensure we have unix time stamps
+        for (publication in publications) {
+            for (issue in publications[publication].issues) {
 
-        callback(null, result);
+                var issueData = publications[publication].issues[issue];
+                
+                if (issueData.onshelf && issueData.offshelf) {
+                    //no work atm
+                } else {
+
+                    if (issueData.month && issueData.year) {
+                        var month = issueData.month.split('/');
+
+                        console.log(month);
+                    }
+                }
+            }
+        }
+
+        callback(null, publications);
     });
 };
 
