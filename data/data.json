@@ -1379,6 +1379,45 @@
 					"pages": 108,
 					"price": "",
 					"contents": {
+						"Contents": 5,
+						"Features": {
+							"F-Zero": 8,
+							"Star Trek": 24,
+							"Roger Clemens MVP Baseball": 32,
+							"Metroid": 38,
+							"Shatterhand": 46
+						},
+						"Super NES Showcase": {
+							"Super Ghouls 'n Ghosts": 72,
+							"Hal's Hole-In-One Golf": 76,
+							"Super R-Type": 79
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 18,
+							"Classified Information": 20,
+							"Counselor's Corner": 34
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"Castlevania II": 52,
+							"Bart Simpson's Escape from Camp Deadly": 60,
+							"Track Meet": 64,
+							"Monopoly": 66
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Player's Poll Contest": 82,
+							"NES Achievers": 88,
+							"Top 30": 90
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 93,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
 					}
 				}
 			}
