@@ -23,7 +23,7 @@ var retroGameMags = (function() {
         }
 
         for (var i = 0; i < issueCount; ++i) {
-            if (i % 5 === 1) {
+            if (i % 5 === 0) {
                 $(target).append('<div class="shelf"><ul></ul></div>');
             }
         }

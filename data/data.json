@@ -1419,6 +1419,108 @@
 							"Next Issue": 99
 						}
 					}
+				},
+				"30": {
+					"title": "Nintendo Power Issue 30",
+					"month": "November",
+					"year": 1991,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 108,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Flintstones": 8,
+							"Final Fantasy II": 24,
+							"Where in Time is Carmon Sandiego?": 38,
+							"Ultimate Air Combat": 42,
+							"Tom & Jerry": 46
+						},
+						"SNES Showcase": {
+							"Super Tennis": 73,
+							"U.N. Squadron": 76,
+							"Super Baseball Simulator 1,000": 79
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 18,
+							"Classified Information": 20,
+							"Counselor's Corner": 34
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"Battletoads": 52,
+							"Kid Icarus": 58,
+							"Faceball 2000": 62,
+							"Double Dragon II": 67,
+							"Wordhai": 68
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"NES Achievers": 88,
+							"Player's Poll Contest": 82,
+							"Top 30": 90
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 93,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
+				},
+				"31": {
+					"title": "Nintendo Power Issue 31",
+					"month": "December",
+					"year": 1991,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"pages": 106,
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Features": {
+							"Batman: Return of the Joker": 8,
+							"Actrasier": 24,
+							"The Addams Family": 38,
+							"Tiny Toon Adventures": 44
+						},
+						"Super NES Showcase": {
+							"Pilotwings": 74,
+							"Populous": 77
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 18,
+							"Classified Information": 20,
+							"Counselor's Corner": 34
+						},
+						"Video Updates": {
+							"Now Playing": 84,
+							"Pak Watch": 94
+						},
+						"Game Boy": {
+							"Metroid II: The Return of Samus": 52,
+							"Ninja Gaiden Shadow": 62,
+							"Hudson's Adventure Island": 68
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Player's Poll Contest": 82,
+							"NES Achievers": 88,
+							"Top 30": 90
+						},
+						"The Info Zone": {
+							"Celebrity Profile": 93,
+							"Bulletin Board": 98,
+							"Next Issue": 99
+						}
+					}
 				}
 			}
 		}
