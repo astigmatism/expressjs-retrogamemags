@@ -161,6 +161,7 @@ var retroGameMags = (function() {
                     $.get('/bydate?min=' + data.values.min + '&max=' + data.values.max, function(results) {
                         $(target).empty();
                         _stockShelves($, target, results);
+                        _tooltips($);
                     });
                 });
 

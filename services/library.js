@@ -1,4 +1,5 @@
 var DataService = require('./data.js');
+var merge = require('merge');
 
 LibraryService = function() {
 };
@@ -28,6 +29,10 @@ LibraryService.getIssuesByDate = function(minDate, maxDate, publicationFilter, c
     minDate = new Date(minDate);
     maxDate = new Date(maxDate);
 
+    //make max date last day of month
+
+    var result = {};
+
     LibraryService.getIssues(publicationFilter, function(err, publications) {
         if (err) {
             return callback(err);
@@ -35,6 +40,11 @@ LibraryService.getIssuesByDate = function(minDate, maxDate, publicationFilter, c
 
         //ensure we have unix time stamps
         for (publication in publications) {
+
+            //put publication in response, but erase its issues
+            result[publication] = merge(true, publications[publication]);
+            result[publication].issues = {};
+
             for (issue in publications[publication].issues) {
 
                 var issueData = publications[publication].issues[issue];
@@ -46,13 +56,30 @@ LibraryService.getIssuesByDate = function(minDate, maxDate, publicationFilter, c
                     if (issueData.month && issueData.year) {
                         var month = issueData.month.split('/');
 
-                        console.log(month);
+                        if (month.length > 0) {
+
+                            var onshelf = new Date(month[0] + ' 1, ' + issueData.year);
+                            
+                            //need to final the final day of the month by first creating a date with the outgoing month, getting its int
+                            // var offshelf = new Date(month[month.length - 1] + ' 1, ' + issueData.year);
+                            // var offMonth = offshelf.getMonth();
+                            // offshelf = new Date(issueData.year, offMonth + 1, 0);
+
+                            //add these dates to the cache
+                            issueData.onshelf = onshelf;
+                            //issueData.offshelf = offshelf;
+                        }
                     }
+                }
+
+                //compare date ranges
+                if (issueData.onshelf >= minDate && issueData.onshelf < maxDate) {
+                    result[publication].issues[issue] = issueData;
                 }
             }
         }
 
-        callback(null, publications);
+        callback(null, result);
     });
 };
 
