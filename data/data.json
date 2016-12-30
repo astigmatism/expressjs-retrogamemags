@@ -1649,6 +1649,62 @@
 							"Top 20": 106
 						}
 					}
+				},
+				"35": {
+					"title": "Nintendo Power Issue 35",
+					"month": "April",
+					"year": 1992,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"NES": {
+							"Captain America and the Avengers": 8,
+							"T&C 2: Thrilla's Surfari": 16,
+							"Yoshi": 22
+						},
+						"Game Boy": {
+							"Star Trek": 46,
+							"Turn 'n Burn/Top Gun": 52,
+							"Ultra Golf": 58,
+							"Boggle Plus": 60,
+							"Missle Command": 61
+						},
+						"Super NES": {
+							"The Addams Family": 76,
+							"WWF Super Westlemania": 83,
+							"Super Smash TV": 90
+						},
+						"Tips from the Pros": {
+							"Classified Information": 26,
+							"Counselor's Corner": 72
+						},
+						"The Info Zone": {
+							"Celebrity Player Profile": 107,
+							"Next Issue": 114
+						},
+						"Video Updates": {
+							"Now Playing": 100,
+							"Pak Watch": 108
+						},
+						"Comics": {
+							"The Legend of Zelda": 30,
+							"Super Mario Bros.": 62,
+							"Nester's Adventures": 96
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Players": 97,
+							"Player's Poll Contest": 98,
+							"Top 20": 104
+						},
+						"Special Report": {
+							"Technology Update-CD-ROM": 70
+						}
+					}
 				}
 			}
 		}

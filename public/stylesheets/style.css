@@ -5,15 +5,23 @@ body,html {
 	height: 100%;
 }
 
-body {
+#background {
+	position: fixed;
 
-	position: relative;
-	background: url(/images/White-Brick-Background.jpg) center center repeat-y;
-	-webkit-transition: height 1s;
-	-moz-transition: height 1s;
-	-ms-transition: height 1s;
-	-o-transition: height 1s;
-	transition: height 1s;
+	background: url(/images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+
+	height: 100%;
+	width: 100%;
 }
 
 a {
@@ -22,17 +30,23 @@ a {
 
 #container {
 	margin: 0 auto;
+	padding: 20px;
 	position: relative;
 	width: 800px;
 	min-height:100% !important; /* browser fill */
     height: auto;                /*content fill */
+
+	background: url(/images/White-Brick-Background.jpg) repeat center center;
+	-webkit-transition: height 1s;
+	-moz-transition: height 1s;
+	-ms-transition: height 1s;
+	-o-transition: height 1s;
+	transition: height 1s;
 }
 
 #maincolumn
 {
 	margin: 0 auto;
-    position: absolute;
-    left: 0px;
 	width: 800px;
 	min-height:100% !important; /* browser fill */
     height: auto;                /*content fill */
@@ -47,7 +61,7 @@ a {
     position: relative;
     width: 100%;
     height: 230px;
-    margin-left: 33px;
+    margin-left: 27px;
 }
 
 .bookshelf .shelf ul {
