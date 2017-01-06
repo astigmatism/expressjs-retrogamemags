@@ -2131,6 +2131,66 @@
 							"Top 20": 102
 						}
 					}
+				},
+				"44": {
+					"title": "Nintendo Power Issue 44",
+					"month": "January",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"Magical Quest starring Mickey Mouse": 8,
+							"Dragon's Eye: Shanghai II": 19,
+							"Sonic Blast Man": 22,
+							"Equinox": 26,
+							"Super NES Sports Games": 30,
+							"Firepower 2000": 38
+						},
+						"Game Boy": {
+							"The Incredible Crash Dummies": 64,
+							"Battleship": 68,
+							"The Humans": 70,
+							"Mega Man III": 72
+						},
+						"NES": {
+							"Mega Man V": 80,
+							"R.C. Pro-Am II": 88,
+							"The Jetsons": 92
+						},
+						"Tips from the Pros": {
+							"Classified Information": 44,
+							"Counselors' Croner": 48,
+							"Nester's Adventures": 98
+						},
+						"The Info Zone": {
+							"Next Issue": 114
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Comics": {
+							"Super Mario Brothers": 52
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 62,
+							"Mega Man Robot Contest Results": 76,
+							"Player's Poll Contest": 99,
+							"Top 20": 100
+						},
+						"Mario Paint Special": 124,
+						"Top 10 Games of 1992": 142,
+						"Star Fox: A View of the Future": 144,
+						"Behind the Scenes at NOA": 162,
+						"Eyes Only! Best of Classified Information": 166,
+						"Super Mario Land 2 Secret Zone": 171
+					}
 				}
 			}
 		}
