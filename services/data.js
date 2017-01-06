@@ -40,6 +40,7 @@ DataService.getFile = function(path, callback, forceLoad, cacheLifetime, buffer)
 
         //if successful cache hit and we're not forcing to load data from source
         if (data && !forceLoad) {
+            console.log('cache hit: ' + path);
             return callback(null, data);
         }
 
@@ -92,10 +93,10 @@ DataService.getCache = function(key, callback) {
 
     nodecache.get(key, function(err, data) {
         if (err) {
-            console.log('cache miss: ' + key);
+            console.log('cache error: ' + key);
             return callback(err);
         }
-        console.log('cache hit: ' + key);
+        console.log('cache attempt: ' + key);
         callback(null, data);
     });
 };
