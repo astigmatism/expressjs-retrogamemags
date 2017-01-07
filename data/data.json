@@ -2191,6 +2191,117 @@
 						"Eyes Only! Best of Classified Information": 166,
 						"Super Mario Land 2 Secret Zone": 171
 					}
+				},
+				"45": {
+					"title": "Nintendo Power Issue 45",
+					"month": "February",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES":  {
+							"Cybernator": 8,
+							"Harley's Humongous Adventure": 14,
+							"Wing Commander": 20,
+							"Jeopardy!": 24,
+							"The Addams Family Pugsley's Scavenger Hunt": 28
+						},
+						"Game Boy": {
+							"Darking Duck": 60,
+							"Spot: The Cool Adventure": 64,
+							"Alien 3": 66,
+							"The Ren & Stimpy Show": 68,
+							"Rampart": 70,
+							"The Little Mermaid": 72
+						},
+						"NES": {
+							"Zen Intergalatic Ninja": 80,
+							"Bomberman II": 86,
+							"Tiny Toon Adventure 2": 90,
+							"Eon Man": 94
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 35,
+							"Classified Information": 44,
+							"Counselors' Corner": 74
+						},
+						"The Info Zone": {
+							"Usung Heroes of the NES": 40,
+							"Next Issue": 114
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Comics": {
+							"Star Fox": 48
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 78,
+							"Player's Poll Contest": 98,
+							"Top 20": 100
+						}
+					}
+				},
+				"46": {
+					"title": "Nintendo Power Issue 46",
+					"month": "March",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"Star Fox": 8,
+							"Super Strike Eagle": 16,
+							"Super Conflict": 20,
+							"Wayne's World": 24,
+							"Tiny Toon Adventures: Buster Busts Loose": 28,
+							"King Arthur's World": 36
+						},
+						"Game Boy": {
+							"Adventure Island II": 58,
+							"Milon's Secret Castle": 62,
+							"Krusty's Fun House": 66,
+							"The Empire Strikes Back": 68
+						},
+						"NES": {
+							"Alien 3": 76,
+							"Dragon Warrior IV": 82,
+							"Micky's Safari in Letterland": 88,
+							"Widget": 90
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 35,
+							"Classified Information": 42,
+							"Counselors' Corner": 70
+						},
+						"The Info Zone": {
+							"What's so Hot about Capcom?": 92,
+							"Nintendo Teams Up With Kelloggs": 114
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Comics": {
+							"Star Fox": 46
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 74,
+							"Nester Awards": 96,
+							"Top 20": 100
+						}
+					}
 				}
 			}
 		}
