@@ -2302,6 +2302,226 @@
 							"Top 20": 100
 						}
 					}
+				},
+				"47": {
+					"title": "Nintendo Power Issue 47",
+					"month": "April",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"Star Fox": 8,
+							"Super Fighting Games": 20,
+							"Pocky & Rocky": 26,
+							"Simearth": 30,
+							"Congo's Caper": 32,
+							"Super Black Bass": 36,
+							"Mech Warrior": 38
+						},
+						"Game Boy": {
+							"Kid Dracula": 60,
+							"Joe & Mac": 64,
+							"Top Rank Tennis": 68
+						},
+						"NES": {
+							"Ducktales 2": 78,
+							"Yoshi's Cookie": 92,
+							"Kid Klown in Night Mayor World": 96
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 35,
+							"Classified Information": 44,
+							"Counselors' Corner": 72
+						},
+						"The Info Zone": {
+							"The Koei Connection": 86,
+							"Next Issue": 114
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Comics": {
+							"Star Fox": 48
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 76,
+							"Player's Poll Contest": 98,
+							"Top 20": 100
+						}
+					}
+				},
+				"48": {
+					"title": "Nintendo Power Issue 48",
+					"month": "May",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"The Lost Vikings": 8,
+							"Super NES Sports Games": 16,
+							"Shadowrun": 22,
+							"Batman Returns": 30
+						},
+						"Game Boy": {
+							"The Legend of Zelda: Link's Awakening": 58,
+							"Zen: Intergalactic Ninja": 62,
+							"Ring Rage": 66,
+							"Great Greed": 68
+						},
+						"NES": {
+							"Kirby's Adventure": 78,
+							"The Incredible Crash Dummies": 86,
+							"Super Turrican": 92
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 35,
+							"Classified Information": 42,
+							"Counselors' Corner": 70
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 40,
+							"Player's Poll Contest": 98,
+							"Top 20": 100
+						},
+						"The Info Zone": {
+							"Next Issue": 114
+						},
+						"Comics": {
+							"Star Fox": 46
+						},
+						"Special Features": {
+							"1992 Nester Awards Results": 36,
+							"Super Mario Bros. - The Movie": 74
+						}
+					}
+				},
+				"49": {
+					"title": "Nintendo Power Issue 49",
+					"month": "June",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"B.O.B.": 8,
+							"Taz-Mania": 16,
+							"Super Casino Games": 20,
+							"Yoshi's Cookie": 24,
+							"Battletoads in Battlemaniacs": 28
+						},
+						"Game Boy": {
+							"Battletoads in Ragnarok's World": 35,
+							"Bubble Bobble Part 2": 70,
+							"Titus the Fox": 72,
+							"Raging Fighter": 74
+						},
+						"NES": {
+							"Battletoads & Double Dragon: The Ultimate Team": 40,
+							"Fire 'N Ice": 84,
+							"NES Hockey Games": 88,
+							"Nester's Father's Day Challenge": 92
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 82,
+							"Classified Information": 66,
+							"Counselors' Corner": 76
+						},
+						"The Info Zone": {
+							"Take Control": 60,
+							"Power University": 26,
+							"Next Issue": 114,
+							"Power Puzzlers": 83
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 64,
+							"Player's Poll Contest": 98,
+							"Top 20": 100
+						},
+						"Comics": {
+							"Star Fox": 48
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						}
+					}
+				},
+				"50": {
+					"title": "Nintendo Power Issue 50",
+					"month": "July",
+					"year": 1993,
+					"publisher": "Nintendo of America",
+					"editor": "Gail Tilden",
+					"country": "United States",
+					"language": "en",
+					"price": "",
+					"contents": {
+						"Contents": 5,
+						"Super NES": {
+							"WWF Royal Rumble": 8,
+							"Run Saber": 16,
+							"E.V.O. Search for Eden": 22,
+							"Edutainment": 26,
+							"Bubsy: Claws Encounters of the Furred Kind": 30
+						},
+						"Game Boy": {
+							"The Legend of Zelda: Link's Awakening": 56,
+							"Gargoyle's Quest II": 66,
+							"T2: The Arcade Game": 70
+						},
+						"NES": {
+							"The Addams Family Pugsley's Scavenger Hunt": 78,
+							"Mighty Final Fight": 84,
+							"Bubble Bobble Part 2": 90
+						},
+						"Tips from the Pros": {
+							"Nester's Adventures": 35,
+							"Classified Information": 40,
+							"Counselors' Corner": 72
+						},
+						"The Info Zone": {
+							"Next Issue": 114
+						},
+						"Video Updates": {
+							"Now Playing": 102,
+							"Pak Watch": 108
+						},
+						"Player's Forum": {
+							"Player's Pulse": 6,
+							"Power Player's Challenge": 76,
+							"Player's Poll Contest": 98,
+							"Top 20": 100
+						},
+						"Comics": {
+							"Star Fox": 44
+						},
+						"Video Updates": {
+							"50th Issue Special": 36,
+							"Super Power Shop": 95
+						}
+					}
 				}
 			}
 		}
