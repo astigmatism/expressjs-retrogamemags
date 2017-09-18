@@ -50,7 +50,7 @@ var retroGameMags = (function() {
 
     var _buildMagazineTemplate = function(publication, issue, issueData) {
 
-        var pathToIssue = 'https://dl.dropboxusercontent.com/u/1433808/retrogamemags/' + publication + '/' + issue;
+        var pathToIssue = '/magazines/' + publication + '/' + issue;
 
         var li = $('<li class="shelf-magazine tooltip" title="#' + issue + ' ' + issueData.month + ' ' + issueData.year + '">');
         var a = $('<a href="' + pathToIssue + '/index.html" target="_blank"></a>');
