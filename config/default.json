@@ -1,6 +1,5 @@
 {
-	"magazinePath": "/Users/astigmatism/Dropbox/Public/retrogamemags/",
-	"magazineUrl": "https://dl.dropboxusercontent.com/u/1433808/retrogamemags",
+	"magazinePath": "/expressjs-retrogamemags/public/magazines",
 	"dataFile": "../data/data.json",
 	"flowPaperUiTemplate": {
 	  "FlowPaper_Zine_UIConfiguration": {
